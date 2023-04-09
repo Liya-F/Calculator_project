@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body id="body">
+    <div>
+    <table id="table">
+        <tr><td><button class="light" onclick="styleChange()">&#128161;</td></tr>
+    <tr>
+        <th colspan="4"><input placeholder="0" type="text" name="screen" id="screen" value="" disabled></th>
+    </tr>
+        
+        <tr>
+            <td><input type="button" value="(" class="buttonop" onclick="display('(')"></td>
+            <td><input type="button" value=")" class="buttonop" onclick="display(')')"></td>
+            <td><input type="button" value="." class="buttonop" onclick="display('.')"></td>
+            <td><input type="button" value="&#8592;" class="buttonbk" onclick="back()"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="7" class="buttonum" onclick="display(7)"></td>
+            <td><input type="button" value="8" class="buttonum" onclick="display(8)"></td>
+            <td><input type="button" value="9" class="buttonum" onclick="display(9)"></td>
+            <td><input type="button" value="&#xf7;" class="buttonop" onclick="display('/')"></td>
+        </tr>    
+            <tr>
+                <td><input type="button" value="4" class="buttonum" onclick="display(4)"></td>
+                <td><input type="button" value="5" class="buttonum" onclick="display(5)"></td>
+                <td><input type="button" value="6" class="buttonum" onclick="display(6)"></td>
+                <td><input type="button" value="&#xd7" class="buttonop" onclick="display('*')"></td>
+            </tr>
+        <tr>
+                <td><input type="button" value="1" class="buttonum" onclick="display(1)"></td>
+                <td><input type="button" value="2" class="buttonum" onclick="display(2)"></td>
+                <td><input type="button" value="3" class="buttonum" onclick="display(3)"></td>
+                <td><input type="button" value="-" class="buttonop" onclick="display('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" class="buttonum" onclick="display(0)"></td>
+                <td colspan="2"><input type="button" value="=" class="buttoneq" onclick="calculate()"></td>
+                <td><input type="button" value="+" class="buttonop" onclick="display('+')"></td>
+
+            </tr>
+    </table>
+</div>
+<script src="calculator.js"></script>  
+</body>
+</html>

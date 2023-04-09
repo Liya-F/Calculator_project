@@ -1,0 +1,85 @@
+
+table{
+    border: 1px solid white;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    margin-top: 8%;
+    table-layout: fixed;
+    padding: 15px;
+    border-radius: 10px;
+    border-spacing: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+
+td{
+    
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;   
+}
+th{
+    height: 80px;
+}
+
+.buttonum,.buttoneq,.buttonop,.buttonbk{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: large;
+    font-family: cursive;
+    font-weight:lighter;
+    border: 1px white;
+    cursor: pointer;
+    box-shadow: 0 0 3px gray;
+}
+.buttoneq{
+    background-color: rgb(248, 146, 146);
+}
+.buttonop{
+    background-color: rgb(250, 220, 224);
+}
+.buttonbk{
+    background-color: blanchedalmond;
+}
+.buttoneq:hover{
+    
+    background-color: rgb(248, 132, 132);;
+    transform: scale(1.05,1.05);
+    transition: 0.2s ease-in-out;   
+}
+.buttonop:hover{
+    background-color: rgb(248, 163, 175);
+}
+
+.buttonum:hover{
+    background-color: lightgray;
+}
+.buttonbk:hover{
+    background-color: rgb(253, 209, 142);
+}
+
+#screen{
+    width: 95%;
+    height: 65%;
+    border-color: transparent;
+    background-color: lightgray;
+    font-size: x-large;
+    font-family: cursive;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.light{
+padding: 0px;
+height: 25px;
+width: 25px;
+border-radius: 100px;
+border-color: transparent;
+cursor: pointer;
+}
+
